@@ -20,16 +20,15 @@ In this small project, build out this NFT Preview Card and get it looking as clo
 
 ### Screenshot
 - Desktop
-
-
+![Screenshot 2024-03-04 134417](https://github.com/aratidsa/NFT-Preview-Card-Frontend-Mentor/assets/128802362/6ea31497-cbe0-4a88-9879-dc77567746fe)
+![Screenshot 2024-03-04 131308](https://github.com/aratidsa/NFT-Preview-Card-Frontend-Mentor/assets/128802362/cebedcda-a88c-4f09-901a-b169aa70272e)
   
 - Mobile  
-
-
+![Screenshot 2024-03-04 134440](https://github.com/aratidsa/NFT-Preview-Card-Frontend-Mentor/assets/128802362/5bf750a4-fba3-4adc-b5b6-18c1da0fd642)
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://github.com/aratidsa/NFT-Preview-Card-Frontend-Mentor
 - Live Site URL: 
 
 ## My process
