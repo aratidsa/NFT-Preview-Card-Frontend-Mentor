@@ -68,7 +68,6 @@ main
 {
     background-color:var(--clr-very-dark-blue-card);
     width:20rem;
-    margin-top:10.5rem;
     padding:2.81rem 0.31rem 0px 1.56rem;
     color:var(--clr-soft-blue);
     border-radius:0.94rem;
@@ -252,16 +251,15 @@ footer{
     font-size: 0.88rem;
     display:flex;
     justify-content: center;
-    margin-top: 0.63rem;
+    margin-top: -3.44rem;
  }
 
 .attribution a
 {
-    text-decoration: none;
     color:var(--clr-Cyan);
 }
 
-/* Mobile Screen Width : 375px */
+/* Mobile Screen  */
 @media only screen and (max-width:375px),(max-device-width:375px) {
     .container
     {
@@ -304,7 +302,6 @@ footer{
     
     .attribution a
     {
-        text-decoration: none;
         color:var(--clr-Cyan);
     }  
     
