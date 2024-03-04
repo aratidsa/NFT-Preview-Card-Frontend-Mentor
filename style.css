@@ -1,0 +1,311 @@
+/* RESET */
+
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img
+{
+    max-width: 100%;
+    display: block;
+}
+
+button
+{
+    font: inherit;
+}
+
+/* CUSTOM PROPERTIES */
+:root{
+    /* COLOR */
+    --clr-soft-blue: hsl(215, 51%, 70%);
+    --clr-Cyan: hsl(178, 100%, 50%);
+    --clr-very-dark-blue: hsl(217, 54%, 11%); /* main background */
+    --clr-very-dark-blue-card: hsl(216, 50%, 16%); /* card background */
+    --clr-Very-dark-blue-line: hsl(215, 32%, 27%); /* line */
+    --clr-white: hsl(0, 0%, 100%);
+
+    /* FONT SIZE */
+    --fs-18:1.13rem;
+
+    /* FONT FAMILY */
+    --ff-outfit:"Outfit", sans-serif;
+
+    /* FONT WEIGHT */
+    --fw-300:300;
+    --fw-400:400;
+    --fw-600:600;
+}
+/* TYPOGRAPHY */
+.txt-white
+{
+    color:var(--clr-white);
+}
+/* BODY */
+body{
+    font-family: var(--ff-outfit);
+    font-weight: var(--fw-300);
+    font-size: var(--fs-18);
+    background-color: var(--clr-very-dark-blue);
+    color:var(--clr-white);
+    line-height: 1.5;
+}
+
+/* COMPONENTS */
+main
+{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container
+{
+    background-color:var(--clr-very-dark-blue-card);
+    width:20rem;
+    margin-top:10.5rem;
+    padding:2.81rem 0.31rem 0px 1.56rem;
+    color:var(--clr-soft-blue);
+    border-radius:0.94rem;
+}
+
+/* Card Picture */
+.card-pic {
+    position: relative; 
+    width:18.75rem;
+}
+.equilibrium-pic
+{
+    width:18.75rem;
+    margin-top:-1.25rem;
+    border-radius:0.31rem;
+}
+
+/* Overlay */
+.overlay {
+    position: absolute; /* Position the overlay absolutely */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius:0.31rem;
+}
+
+.overlay-bg {
+    position: absolute;
+    top: 0;    
+    left: 0;  
+    width: 100%;
+    height: 100%;    
+    background-color: var(--clr-Cyan); 
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    border-radius:0.31rem;
+}
+
+/* Card Picture: Hover */
+.card-pic:hover .overlay-bg {
+    opacity: 0.5; /* Show the overlay on hover */
+    cursor: pointer;
+}
+
+/* Icon View */
+.icon-view {    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the icon */     
+    width: 3.13rem; /* Adjust size of the icon as needed */
+    height: 3.13rem; /* Adjust size of the icon as needed */
+    opacity: 0; /* Initially hidden */
+}
+
+/* Icon View: Hover */
+.card-pic:hover .icon-view {
+    opacity: 1; /* Show the overlay on hover */
+    cursor: pointer;
+}
+
+/* Title */
+.equilibrium-title
+{
+    font-size: 1.38rem;
+    margin-top:1.38rem;
+    color:var(--clr-white);
+}
+
+/* Title: Hover */
+.equilibrium-title:hover
+{
+   color:var(--clr-Cyan);
+   cursor: pointer;
+}
+
+/* Description */
+.description
+{
+    margin-top:-0.44rem;
+}
+
+/* Details */
+.details-grid {
+    display: grid;
+    grid-template-columns: auto auto; /* Two columns of equal width */
+    grid-template-rows: 6.25rem;
+    grid-gap: 5.94rem; /* Adjust gap between grid items as needed */
+    margin-top:-2.13rem;
+    font-family: var(--ff-outfit);
+}
+
+.details-item {
+    display: flex;
+    align-items: center;
+}
+
+.details-item img {
+      margin-right: 0.31rem; /* Adjust margin between image and text as needed */
+}
+
+/* Icon Ethereum */
+.icon-ethereum
+{
+    width: 0.63rem;
+    height: 1.25rem; 
+}
+
+/* Eth Points */
+.eth-points
+{
+  font-size:1rem;
+  font-weight: var(--fw-600);
+  color:var(--clr-Cyan);
+}
+
+/* Days Left */
+.days-left
+{
+    font-size:1rem;
+}
+
+/* Horizontal Line */
+hr
+{
+    background-color: var(--clr-Very-dark-blue-line);
+    outline:none;
+    border:none;
+    height:0.06rem;
+    margin-top:-0.94rem;
+    width:18.75rem;
+    margin-right:1.25rem;
+}
+
+/* Author */
+.creation{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 6.25rem;
+    margin-top:-1.69rem;
+    margin-left:-0.19rem;
+}
+
+.creation-item {
+    display: flex;
+    align-items: center;
+}
+
+.creation-item img {
+      margin-right: 0.94rem; /* Adjust margin between image and text as needed */      
+}
+
+.avatar-img
+{
+    width:2.06rem;
+    height:2.06rem;
+    border:1px solid var(--clr-white);
+    border-radius: 50%;
+}
+
+.name-creation
+{
+    font-size:1rem;
+}
+
+.creation-name
+{
+    color:var(--clr-white);
+}
+
+.creation-name:hover
+{
+    color:var(--clr-Cyan);
+    cursor: pointer;
+}
+
+/* Footer */
+footer{
+    color:var(--clr-white);
+    font-size: 0.88rem;
+    display:flex;
+    justify-content: center;
+    margin-top: 0.63rem;
+ }
+
+.attribution a
+{
+    text-decoration: none;
+    color:var(--clr-Cyan);
+}
+
+/* Mobile Screen Width : 375px */
+@media only screen and (max-width:375px),(max-device-width:375px) {
+    .container
+    {
+        width:18.75rem;
+        margin-top:2.38rem;
+    }
+    
+    .card-pic {
+        width:17.5rem;
+    }
+    .equilibrium-pic
+    {
+        width:17.5rem;
+    }    
+   
+    .description
+    {
+        font-size:1rem;
+    }
+    
+    .details-grid {
+        display: grid;
+        grid-template-columns: auto auto; 
+        grid-template-rows: 6.25rem;
+        grid-gap: 5rem; 
+    }
+           
+    hr
+    {
+        width:17.5rem;
+    }
+    
+    footer{
+        color:var(--clr-white);
+        font-size: 0.63rem;
+        display:flex;
+        justify-content: center;
+        margin-top: -1.56rem;
+     }
+    
+    .attribution a
+    {
+        text-decoration: none;
+        color:var(--clr-Cyan);
+    }  
+    
+}
