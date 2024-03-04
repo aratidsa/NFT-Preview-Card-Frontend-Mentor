@@ -29,7 +29,7 @@ In this small project, build out this NFT Preview Card and get it looking as clo
 ### Links
 
 - Solution URL: https://github.com/aratidsa/NFT-Preview-Card-Frontend-Mentor
-- Live Site URL: 
+- Live Site URL: https://nft-preview-card-component-design.netlify.app/
 
 ## My process
 
