@@ -16,7 +16,8 @@ This is a solution to the [NFT Preview Card challenge on Frontend Mentor](https:
 ## Overview
 
 ### The challenge
-In this small project, build out this NFT Preview Card and get it looking as close to the design as possible.. 
+In this small project, build out this NFT Preview Card and get it looking as close to the design as possible.Users should be able to:
+- See hover states for all interactive elements on the page
 
 ### Screenshot
 - Desktop
